@@ -1,0 +1,126 @@
+<!-- переключання контенту я реалізував в даному прикладі на css, але в даній реалізації є один костиль(при першому запуску не відображається контент),
+     за допомогою css я не можу вирішити дану проблему тому що не можу добавляти або видаляти активний клас, а інші реалізації табів на чистому css 
+     сюди не зовсім підходять бо там від елемента на який натиснули чи навели мишку доступаються до самого контента через ~ або + тобто еленти на які натискають і самий контент повинні лежати в одному блоці або один пілся іншого-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li><a href="#main">Main</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About Company</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main" class="content main">
+        <h1 class="title main__title">Lorem ipsum dolor</h1>
+        <p class="text main__text">
+            Lorem ipsum dolor <a class="link main__link" href="#">sit amet</a>, consectetur adipisicing elit. Doloribus
+            animi quam error dolore amet atque possimus, consequuntur fugiat earum quis. Eum porro a consectetur iure
+            quaerat adipisci laudantium placeat
+            harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dignissimos minima quisquam quaerat
+            facilis cupiditate necessitatibus veniam, sequi modi provident cumque culpa doloremque vitae distinctio non
+            aliquid a, eos quo?
+        </p>
+        <p class="text main__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+            <a class="link main__link" href="#"> doloribus</a> voluptates repellat fugit
+            expedita repellendus sequi? Nulla velit ex mollitia dolore quibusdam iure, neque debitis pariatur facere
+            eveniet alias assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam eos
+            magnam veritatis soluta necessitatibus voluptatum aut possimus odio, dolor est porro quidem sit quos esse
+            nulla, qui ratione voluptate.
+        </p>
+    </section>
+    <section id="news" class="content news">
+        <h1 class="title news__title">Lorem ipsum dolor</h1>
+        <p class="text news__text">
+            Lorem ipsum dolor <a class="link news__link" href="#">sit amet</a>, consectetur adipisicing elit. Doloribus
+            animi quam error dolore amet atque possimus, consequuntur fugiat earum quis. Eum porro a consectetur iure
+            quaerat adipisci laudantium placeat
+            harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dignissimos minima quisquam quaerat
+            facilis cupiditate necessitatibus veniam, sequi modi provident cumque culpa doloremque vitae distinctio non
+            aliquid a, eos quo?
+        </p>
+        <p class="text news__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+            <a class="link news__link" href="#">doloribus</a> voluptates repellat fugit
+            expedita repellendus sequi? Nulla velit ex mollitia dolore quibusdam iure, neque debitis pariatur facere
+            eveniet alias assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam eos
+            magnam veritatis soluta necessitatibus voluptatum aut possimus odio, dolor est porro quidem sit quos esse
+            nulla, qui ratione voluptate.
+        </p>
+    </section>
+    <section id="contacts" class="content contacts">
+        <h1 class="title contacts__title">Lorem ipsum dolor</h1>
+        <p class="text contacts__text">
+            Lorem ipsum dolor <a class="link contacts__link" href="#">sit amet</a>, consectetur adipisicing elit.
+            Doloribus animi quam error dolore amet atque possimus, consequuntur fugiat earum quis. Eum porro a
+            consectetur iure quaerat adipisci laudantium placeat
+            harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dignissimos minima quisquam quaerat
+            facilis cupiditate necessitatibus veniam, sequi modi provident cumque culpa doloremque vitae distinctio non
+            aliquid a, eos quo?
+        </p>
+        <p class="text ontacts__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+            <a class="link contacts__link" href="#">doloribus</a> voluptates repellat fugit
+            expedita repellendus sequi? Nulla velit ex mollitia dolore quibusdam iure, neque debitis pariatur facere
+            eveniet alias assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam eos
+            magnam veritatis soluta necessitatibus voluptatum aut possimus odio, dolor est porro quidem sit quos esse
+            nulla, qui ratione voluptate.
+        </p>
+    </section>
+    <section id="about" class="content about">
+        <h1 class="title about__title">Lorem ipsum dolor</h1>
+        <p class="text about__text">
+            Lorem ipsum dolor <a class="link about__link" href="#">sit amet</a>, consectetur adipisicing elit. Doloribus
+            animi quam error dolore amet atque
+            possimus, consequuntur fugiat earum quis. Eum porro a consectetur iure quaerat adipisci laudantium placeat
+            harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dignissimos minima quisquam quaerat
+            facilis cupiditate necessitatibus veniam, sequi modi provident cumque culpa doloremque vitae distinctio non
+            aliquid a, eos quo?
+        </p>
+        <p class="text about__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+            <a class="link about__link" href="#">doloribus</a> voluptates repellat fugit
+            expedita repellendus sequi? Nulla velit ex mollitia dolore quibusdam iure, neque debitis pariatur facere
+            eveniet alias assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam eos
+            magnam veritatis soluta necessitatibus voluptatum aut possimus odio, dolor est porro quidem sit quos esse
+            nulla, qui ratione voluptate.
+        </p>
+    </section>
+    <section id="location" class="content location">
+        <h1 class="title location__title">Lorem ipsum dolor</h1>
+        <p class="text location__text">
+            Lorem ipsum dolor <a class="link location__link" href="#">sit amet</a>, consectetur adipisicing elit.
+            Doloribus animi quam error dolore amet atque
+            possimus, consequuntur fugiat earum quis. Eum porro a consectetur iure quaerat adipisci laudantium placeat
+            harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dignissimos minima quisquam quaerat
+            facilis cupiditate necessitatibus veniam, sequi modi provident cumque culpa doloremque vitae distinctio non
+            aliquid a, eos quo?
+        </p>
+        <p class="text location__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+            <a class="link location__link" href="#">doloribus</a> voluptates repellat fugit
+            expedita repellendus sequi? Nulla velit ex mollitia dolore quibusdam iure, neque debitis pariatur facere
+            eveniet alias assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam eos
+            magnam veritatis soluta necessitatibus voluptatum aut possimus odio, dolor est porro quidem sit quos esse
+            nulla, qui ratione voluptate.
+        </p>
+    </section>
+</body>
+
+</html>
